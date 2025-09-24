@@ -1,4 +1,6 @@
 import link from 'next/link';
+import home from "@/pages/home";
+import about from "@/pages/about"
 
 const Header: React.FC = () => {
     return(
@@ -7,6 +9,12 @@ const Header: React.FC = () => {
        <h2 className="font-bold text-2x1">
       
        </h2>
+       <nav>
+        <ul>
+          <li><a href="/home">Home</a></li>
+          <li><a href="/about">About</a></li>
+        </ul>
+       </nav>
         </div>
       </header>
     )

@@ -7,7 +7,7 @@ const Header: React.FC = () => {
       <header className="bg-blue-400 text-white px-2 py-4">
         <div className="flex justify-between px-4 items-center">
        <h2 className="font-bold text-2x1">
-      
+      Bissy Classic
        </h2>
        <nav>
         <ul>

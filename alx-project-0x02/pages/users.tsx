@@ -2,7 +2,7 @@ import React, { useEffect, useState } from "react";
 import UserCard from "@/components/common/UserCard";
 import { UserProps } from "@/interfaces";
 import Header from "@/components/layout/Header";
-"get {staticProps}"
+"getStaticProps"
 
 export default function UsersPage() {
   const [users, setUsers] = useState<UserProps[]>([]);

@@ -1,6 +1,7 @@
 import link from 'next/link';
 import home from "@/pages/home";
-import about from "@/pages/about"
+import about from "@/pages/about";
+"import Link from"
 
 const Header: React.FC = () => {
     return(

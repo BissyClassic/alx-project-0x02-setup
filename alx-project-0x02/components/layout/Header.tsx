@@ -1,7 +1,7 @@
 import link from 'next/link';
 import home from "@/pages/home";
 import about from "@/pages/about";
-"import Link from"
+"import link frrom"
 
 const Header: React.FC = () => {
     return(
@@ -10,12 +10,17 @@ const Header: React.FC = () => {
        <h2 className="font-bold text-2x1">
       Bissy Classic
        </h2>
-       <nav>
-        <ul>
-          <li><a href="/home">Home</a></li>
-          <li><a href="/about">About</a></li>
-        </ul>
-       </nav>
+        <nav className="flex gap-6">
+        <Link href="/home" className="hover:underline">
+          Home
+        </Link>
+        <Link href="/about" className="hover:underline">
+          About
+        </Link>
+        <Link href="/posts" className="hover:underline">
+          Posts
+        </Link>
+      </nav>
         </div>
       </header>
     )

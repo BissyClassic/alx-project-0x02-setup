@@ -1,6 +1,7 @@
  import React, { useState } from "react";
  import Card from "@/components/common/Card";
  import PostModal from "@/components/common/PostModal";
+ import Header from "@/components/layout/Header";
 
 
  export default function HomePage() {
@@ -16,6 +17,7 @@
         }
     return(
         <div className="min-h-screen bg-gray-50 p-10">
+            <Header />
        <h1 className="font-bold text-white text-left">
         Welcome to my homepage 
         </h1>

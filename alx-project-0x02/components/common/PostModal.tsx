@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 
-interface PostModalProps {
+export interface PostModalProps {
     isOpen: boolean;
     onClose: () => void;
     onSubmit: ( title: string, content: string) => void;
